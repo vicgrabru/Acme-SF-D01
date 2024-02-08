@@ -21,7 +21,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	
-	<artifactId>Hello-World</artifactId>
+	<artifactId>Acme-SF</artifactId>
 	
 	<packaging>war</packaging>
 	
@@ -33,4 +33,5 @@
 	</parent>
 
 	
+	<version>D01</version>
 </project>
