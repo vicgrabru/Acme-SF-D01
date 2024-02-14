@@ -21,8 +21,11 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	
-	<artifactId>Acme-SF</artifactId>
+	<name>Acme SF</name>
+	<description>This is the project of the group C1.017</description>
 	
+	<artifactId>Acme-SF</artifactId>
+	<version>D01</version>
 	<packaging>war</packaging>
 	
 	<parent>
@@ -31,7 +34,4 @@
 		<version>24.1.0</version>
 		<relativePath>../../pom-24.1.0.xml</relativePath>
 	</parent>
-
-	
-	<version>D01</version>
 </project>

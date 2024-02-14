@@ -10,6 +10,7 @@
 
 - Rafael Corchuelo (corchu@us.es)
 - Victor Gravan Bru (vicgrabru@alum.us.es)
-- Carlos García Ortiz (cargaort3@alum.us.es)
-- Francisco de Asís Rosso Ramírez (frarosram@alum.us.es)
+- Carlos García Ortiz (cargarort3@alum.us.es)
+- Alberto Escobar Sánchez (albescsan1@alum.us.es)
 - Jorge Gómez de Tovar (jorgomde@alum.us.es)
+- Francisco de Asís Rosso Ramírez (frarosram@alum.us.es)

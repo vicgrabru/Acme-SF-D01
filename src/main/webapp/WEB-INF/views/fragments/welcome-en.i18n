@@ -10,4 +10,5 @@
 
 master.welcome.title = Welcome!
 master.welcome.text = \
-	This is a new welcome message for the C1.017 group
+	Hello World! Never before has it been easier to get your \
+	project up and running!
