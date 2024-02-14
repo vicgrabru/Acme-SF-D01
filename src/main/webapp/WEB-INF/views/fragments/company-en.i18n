@@ -8,7 +8,7 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-master.company.title = The company
+master.company.title = Acme-SF-D01
 master.company.text = \
 	Hello World, Inc. is a fictitious company that provides a starter \
 	project for the students of the Design and Testing subject of the \
