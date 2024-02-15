@@ -23,6 +23,7 @@
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-vicgrabru" action="https://www.youtube.com/watch?v=dQw4w9WgXcQ"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-cargarort3" action="https://roll20.net"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-frarosram" action="https://edhrec.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link-jorgomde" action="https://onefootball.com/es/inicio"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
