@@ -57,7 +57,6 @@ public class UserStory extends AbstractEntity {
 	@Enumerated(value = EnumType.STRING)
 	private Priority			priority;
 
-	@NotBlank
 	@URL
 	private String				optionalLink;
 
