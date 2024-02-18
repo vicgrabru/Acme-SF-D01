@@ -1,11 +1,8 @@
 
 package acme.entities.project;
 
-import java.util.Collection;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.OneToMany;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
@@ -25,38 +22,35 @@ public class Project extends AbstractEntity {
 
 	// Serialisation identifier -----------------------------------------------
 
-	private static final long		serialVersionUID	= 1L;
+	private static final long	serialVersionUID	= 1L;
 
 	// Attributes -------------------------------------------------------------
 
 	@Column(unique = true)
 	@NotBlank
 	@Pattern(regexp = "[A-Z]{3}-[0-9]{4}", message = "{validation.project.code}")
-	private String					code;
+	private String				code;
 
 	@NotBlank
 	@Length(max = 75)
-	private String					title;
+	private String				title;
 
 	@NotBlank
 	@Length(max = 100)
-	private String					abstractField;
+	private String				abstractField;
 
 	@NotNull
-	private boolean					hasFatalErrors;
+	private boolean				hasFatalErrors;
 
 	@NotNull
 	@PositiveOrZero
-	private Integer					cost;
+	private Integer				cost;
 
 	@URL
-	private String					optionalLink;
+	private String				optionalLink;
 
 	// Derived attributes -----------------------------------------------------
 
 	// Relationships ----------------------------------------------------------
-
-	@OneToMany
-	private Collection<UserStory>	userStories;
 
 }
