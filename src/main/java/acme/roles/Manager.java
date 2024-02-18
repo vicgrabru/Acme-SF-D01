@@ -45,7 +45,6 @@ public class Manager extends AbstractRole {
 	@Length(max = 100)
 	private String				certifications;
 
-	@NotBlank
 	@URL
 	private String				optionalLink;
 
