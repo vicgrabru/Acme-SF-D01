@@ -13,23 +13,23 @@ public class AdministratorDashboard extends AbstractForm {
 
 	// Serialisation identifier -----------------------------------------------
 
-	private static final long	serialVersionUID	= 1L;
+	private static final long		serialVersionUID	= 1L;
 
 	// Attributes -------------------------------------------------------------
 
-	Map<String, Integer>		numberOfPrincipalsByRole;
-	Double						ratioOfNoticesWithEmailAdressAndLink;
-	Double						ratioOfCriticalObjectives;
-	Double						ratioOfNonCriticalObjectives;
+	private Map<String, Integer>	numberOfPrincipalsByRole;
+	private Double					ratioOfNoticesWithEmailAdressAndLink;
+	private Double					ratioOfCriticalObjectives;
+	private Double					ratioOfNonCriticalObjectives;
 
-	Double						avgRiskValue;
-	Double						minRiskValue;
-	Double						maxRiskValue;
-	Double						stdRiskValue;
+	private Double					avgRiskValue;
+	private Double					minRiskValue;
+	private Double					maxRiskValue;
+	private Double					stdRiskValue;
 
-	Double						avgNumberOfClaims;
-	Double						minNumberOfClaims;
-	Double						maxNumberOfClaims;
-	Double						stdNumberOfClaims;
+	private Double					avgNumberOfClaims;
+	private Double					minNumberOfClaims;
+	private Double					maxNumberOfClaims;
+	private Double					stdNumberOfClaims;
 
 }
