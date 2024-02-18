@@ -13,19 +13,5 @@
 package acme.entities.project;
 
 public enum Priority {
-
-	MUST("Must"), SHOULD("Should"), COULD("Could"), WONT("Won't");
-
-
-	public final String value;
-
-
-	private Priority(final String value) {
-		this.value = value;
-	}
-
-	@Override
-	public String toString() {
-		return this.value;
-	}
+	MUST, SHOULD, COULD, WONT
 }
