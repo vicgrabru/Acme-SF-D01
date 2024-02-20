@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>970</x>
-      <y>390</y>
+      <x>960</x>
+      <y>400</y>
       <w>340</w>
       <h>120</h>
     </coordinates>
@@ -15,15 +15,15 @@ Manager
 + degree: String {NotBlank, Length(max=75)}
 + overview: String {NotBlank, Length(max=100)}
 + certifications: String {NotBlank, Length(max=100)}
-+ optionalLink: String {URL}
++ optionalLink: String {URL, Length(max=255)}
 bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>890</x>
-      <y>500</y>
+      <x>880</x>
+      <y>510</y>
       <w>220</w>
       <h>120</h>
     </coordinates>
@@ -36,8 +36,8 @@ Elicited by &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>420</x>
-      <y>230</y>
+      <x>410</x>
+      <y>240</y>
       <w>400</w>
       <h>200</h>
     </coordinates>
@@ -59,8 +59,8 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>120</x>
-      <y>340</y>
+      <x>110</x>
+      <y>350</y>
       <w>220</w>
       <h>70</h>
     </coordinates>
@@ -74,8 +74,8 @@ bg=green
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>440</x>
-      <y>710</y>
+      <x>430</x>
+      <y>720</y>
       <w>340</w>
       <h>160</h>
     </coordinates>
@@ -87,15 +87,16 @@ Project
 + abstract+ title: String {NotBlank, Length(max=100)}
 + hasFatalErrors: Boolean
 + cost: Integer {PositiveOrZero}
-+ optionalLink: String {URL}
++ optionalLink: String {URL, Length(max=255)}
++ draftMode: Boolean
 bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>490</y>
+      <x>320</x>
+      <y>500</y>
       <w>140</w>
       <h>120</h>
     </coordinates>
@@ -106,8 +107,8 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>450</x>
-      <y>480</y>
+      <x>440</x>
+      <y>490</y>
       <w>450</w>
       <h>150</h>
     </coordinates>
@@ -120,7 +121,7 @@ UserStory
 + estimatedCost: Integer {Positive}
 + acceptanceCriteria: String {NotBlank, Length(max=100)}
 + priority: Priority
-+ optionalLink: String {URL}
++ optionalLink: String {URL, Length(max=255)}
 
 </panel_attributes>
     <additional_attributes/>
@@ -128,8 +129,8 @@ UserStory
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>200</x>
-      <y>560</y>
+      <x>190</x>
+      <y>570</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -143,20 +144,20 @@ the same manager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>340</x>
-      <y>670</y>
+      <x>330</x>
+      <y>730</y>
       <w>120</w>
-      <h>160</h>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=..
 </panel_attributes>
-    <additional_attributes>10.0;10.0;100.0;140.0</additional_attributes>
+    <additional_attributes>10.0;10.0;100.0;90.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>620</y>
+      <x>580</x>
+      <y>630</y>
       <w>50</w>
       <h>110</h>
     </coordinates>
@@ -167,8 +168,8 @@ m1=1..*</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>120</x>
-      <y>160</y>
+      <x>110</x>
+      <y>170</y>
       <w>220</w>
       <h>120</h>
     </coordinates>
@@ -186,8 +187,8 @@ bg=yellow
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>270</y>
+      <x>210</x>
+      <y>280</y>
       <w>30</w>
       <h>90</h>
     </coordinates>
@@ -197,8 +198,8 @@ bg=yellow
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>580</x>
-      <y>140</y>
+      <x>570</x>
+      <y>150</y>
       <w>140</w>
       <h>50</h>
     </coordinates>
@@ -211,8 +212,8 @@ bg=white
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>650</x>
-      <y>180</y>
+      <x>640</x>
+      <y>190</y>
       <w>30</w>
       <h>70</h>
     </coordinates>
@@ -222,8 +223,8 @@ bg=white
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>970</x>
-      <y>680</y>
+      <x>980</x>
+      <y>200</y>
       <w>160</w>
       <h>110</h>
     </coordinates>
@@ -241,8 +242,8 @@ bg=green
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>210</x>
-      <y>680</y>
+      <x>200</x>
+      <y>690</y>
       <w>140</w>
       <h>80</h>
     </coordinates>

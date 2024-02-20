@@ -1,10 +1,12 @@
-key,code,title,abstractField,hasFatalErrors,cost,optionalLink
-project-01,AAA-1234,Test title,Test abstract,false,10,https://www.example.com
-project-02,AAA-2345,a,Project con title de 1 caracter,false,10,https://www.example.com
-project-03,AAB-1234,Lorem ipsum dolor sit amets consectetur adipiscing elits aenean massa nunc,Project con title de 75 caracteres,false,10,https://www.example.com
-project-04,ABC-1234,貸んい建濯よ芝弾テソ,Project con caracteres japoneses en title,false,10,https://www.example.com
-project-05,BCD-2345,Project con abstractField de 1 caracter,a,false,10,https://www.example.com
-project-06,CDE-3456,Project con abstractField de 100 caracteres,Lorem ipsum dolor sit amets consectetur adipiscing elits Curabitur tortor lectuss viverra non augues,false,10,https://www.example.com
-project-07,DEF-4567,Project con caracteres japoneses en abstractField,貸んい建濯よ芝弾テソ,false,10,https://www.example.com
-project-08,EFG-5678,Project con valor 0,Test abstract,false,0,https://www.example.com
-project-09,FGH-6789,Project sin link,Test abstract,false,10
+key,code,title,abstractField,hasFatalErrors,cost,optionalLink,draftMode
+project-01,AAA-1234,Test title,Test abstract,false,10,https://www.example.com,false
+project-02,AAA-2345,a,Project con title de 1 caracter,false,10,https://www.example.com,false
+project-03,AAB-1234,Lorem ipsum dolor sit amets consectetur adipiscing elits aenean massa nunc,Project con title de 75 caracteres,false,10,https://www.example.com,false
+project-04,ABC-1234,貸んい建濯よ芝弾テソ,Project con caracteres japoneses en title,false,10,https://www.example.com,false
+project-05,BCD-2345,Project con abstractField de 1 caracter,a,false,10,https://www.example.com,true
+project-06,CDE-3456,Project con abstractField de 100 caracteres,Lorem ipsum dolor sit amets consectetur adipiscing elits Curabitur tortor lectuss viverra non augues,false,10,https://www.example.com,false
+project-07,DEF-4567,Project con caracteres japoneses en abstractField,貸んい建濯よ芝弾テソ,false,10,https://www.example.com,false
+project-08,EFG-5678,Project con valor 0,Test abstract,false,0,https://www.example.com,true
+project-09,FGH-6789,Project sin link,Test abstract,false,10,,true
+project-10,GHI-7890,Project para manager 10,Test abstract,false,0,https://www.example.com,true
+project-11,HIJ-8901,Project para manager 11,Test abstract,false,0,https://www.example.com,true

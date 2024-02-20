@@ -39,7 +39,6 @@ public class Project extends AbstractEntity {
 	@Length(max = 100)
 	private String				abstractField;
 
-	@NotNull
 	private boolean				hasFatalErrors;
 
 	@NotNull
@@ -47,7 +46,10 @@ public class Project extends AbstractEntity {
 	private Integer				cost;
 
 	@URL
+	@Length(max = 255)
 	private String				optionalLink;
+
+	private boolean				draftMode;
 
 	// Derived attributes -----------------------------------------------------
 
