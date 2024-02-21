@@ -13,8 +13,6 @@
 package acme.entities.project;
 
 import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
 import javax.persistence.ManyToOne;
 import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
@@ -57,7 +55,6 @@ public class UserStory extends AbstractEntity {
 	private String				acceptanceCriteria;
 
 	@NotNull
-	@Enumerated(value = EnumType.STRING)
 	private Priority			priority;
 
 	@URL

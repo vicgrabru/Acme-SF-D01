@@ -28,7 +28,7 @@ public class Project extends AbstractEntity {
 
 	@Column(unique = true)
 	@NotBlank
-	@Pattern(regexp = "[A-Z]{3}-[0-9]{4}", message = "{validation.project.code}")
+	@Pattern(regexp = "[A-Z]{3}-[0-9]{4}")
 	private String				code;
 
 	@NotBlank
@@ -46,7 +46,6 @@ public class Project extends AbstractEntity {
 	private Integer				cost;
 
 	@URL
-	@Length(max = 255)
 	private String				optionalLink;
 
 	private boolean				draftMode;
